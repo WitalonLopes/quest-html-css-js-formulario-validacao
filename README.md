@@ -12,6 +12,7 @@ Este é um projeto simples de um formulário de contato desenvolvido com **HTML*
 - Validação de campos obrigatórios (`Nome`, `Email`, `Telefone`, `Mensagem`)
 - Feedback visual:
   - Bordas vermelhas para campos inválidos
+  - Vermelhas ate mesmo se tiver faltantado apenas 1 input a ser preenchido
   - Bordas verdes para campos válidos
 - Mensagens de erro personalizadas para cada campo
 - Layout responsivo com design moderno
