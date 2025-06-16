@@ -101,3 +101,51 @@ section.formulario form .btn {
     font-size: 15px;
     cursor: pointer;
 }
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    padding: 20px;
+    height: 100vh;
+    gap: 30px;
+  }
+
+  section.text {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+  }
+
+  section.text h1 {
+    font-size: 18px;
+  }
+
+  section.text p {
+    font-size: 14px;
+  }
+
+  section.formulario {
+    width: 100%;
+    padding: 20px;
+  }
+
+  section.formulario form input,
+  section.formulario form textarea {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  section.formulario form .btn {
+    font-size: 14px;
+    height: 40px;
+  }
+
+  .msg-erro {
+    font-size: 10px;
+  }
+}
